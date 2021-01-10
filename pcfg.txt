@@ -1,0 +1,23 @@
+[0.80] S -> NP VP
+[0.10] S -> XE VP
+[1.00] XE -> Aux NP
+[0.05] S -> Verb NP
+[0.03] S -> VP PP
+[0.60] NP -> Det Nominal
+[0.20] Nominal -> Nominal Noun
+[0.50] Nominal -> Nominal PP
+[0.50] VP -> Verb NP
+[0.30] VP -> VP PP
+[1.00] PP -> Preposition NP
+S -> book [0.01] | include [0.004] | prefer [0.006]
+NP -> i [0.10] | he [0.02] | she [0.02] | me [0.06]
+NP -> houston [0.16] | nwa [0.04] 
+Nominal -> book [0.10] | flight [0.15] | meal [0.06] | money [0.06]
+VP -> book [0.10] | include [0.04] | prefer [0.06]
+Det -> this [0.10] | that [0.10] | a [0.20] | the [0.60]
+Noun -> book [0.10] | flight [0.50] | meal [0.20] | money [0.20]
+Verb -> book [0.50] | include [0.20] | prefer [0.30]
+Pronoun -> i [0.50] | he [0.10] | she [0.10] | me [0.30] 
+Proper-Noun -> houston [0.80] | nwa [0.20]
+Aux -> does [1.00] 
+Preposition -> from [0.25] | to [0.25] | on [0.10] | near [0.20] | through [0.20]
